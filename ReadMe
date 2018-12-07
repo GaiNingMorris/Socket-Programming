@@ -1,0 +1,21 @@
+Common Classes:
+	1.InputUserInfo(the input information from client)
+	2.OutputUserInfo(the normal response to client)
+	3.ErrorInfo(the error response to client)
+	4.SocketHelper
+	5.TagsInfo(latest time stamp and a map which saves tags name and their operation)
+		tag operation: true is add, remove is false
+	
+
+Part 1: 
+	Part1SocketServer.java(server)
+	Part1TestCase.java(client)
+		
+Part 2: 
+	Part2SocketServer.java(server)
+	Part2TestCase.java(client)
+
+Also, I use JDK 8 and Gson which is used to convert object to json format.
+		 
+	
+	
